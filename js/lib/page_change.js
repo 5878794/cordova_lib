@@ -149,7 +149,7 @@ document.addEventListener("deviceready",function(){
 
 
         //判断是否是后退页面，重置后退页面的滚轮高度
-        if(_data.url == url){
+        if(_data && _data.url == url){
             var x = _data.x,
                 y = _data.y;
             window.scrollTo(x,y);
@@ -159,7 +159,6 @@ document.addEventListener("deviceready",function(){
 
         }
 
-
         //页面切换
         window.plugins.nativepagetransitions.executePendingTransition(
             function(){},
@@ -167,5 +166,6 @@ document.addEventListener("deviceready",function(){
         );
     });
 },false);
+
 
 
