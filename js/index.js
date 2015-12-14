@@ -111,11 +111,9 @@ var download = function(){
 
 
 	var texts = [];
-	var lib = getScriptText("device"),
-		jq_plus = getScriptText("jq_plus");
+	var lib = getScriptText("capp");
 	texts.push(select_text);
 	texts.push(lib);
-	texts.push(jq_plus);
 
 	for(var i= 0,l=select.length;i<l;i++){
 		var text = getScriptText(select[i]);

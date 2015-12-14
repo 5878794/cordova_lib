@@ -14,3 +14,7 @@
 
 ##弹出信息提示
 详见：  /js/lib/message.js
+
+
+##闪光灯当手电筒功能
+详见:  /js/lib/flashlight.js
