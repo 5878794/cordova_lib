@@ -18,3 +18,8 @@
 
 ##闪光灯当手电筒功能
 详见:  /js/lib/flashlight.js
+
+
+
+##系统原生的select
+详见  /js/lib/select.js
