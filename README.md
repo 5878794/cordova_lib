@@ -36,3 +36,7 @@
 
 ##设备震动
 详见  /js/lib/vibration.js
+
+
+##系统 alert,confirm,beep,prompt
+详见  /js/lib/notify.js
