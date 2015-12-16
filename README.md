@@ -27,3 +27,12 @@
 
 ##打开一个url地址，可以注入js和css代码
 详见  /js/lib/window_open_url.js
+
+
+
+##android自动隐藏底部导航条(返回，主页，菜单)
+详见 /js/lib/hide_navigation_bar.js
+
+
+##设备震动
+详见  /js/lib/vibration.js
