@@ -40,3 +40,8 @@
 
 ##系统 alert,confirm,beep,prompt
 详见  /js/lib/notify.js
+
+
+
+##屏幕长亮
+详见  /js/lib/not_auto_off_screen.js
