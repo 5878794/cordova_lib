@@ -23,3 +23,7 @@
 
 ##系统原生的select
 详见  /js/lib/select.js
+
+
+##打开一个url地址，可以注入js和css代码
+详见  /js/lib/window_open_url.js
