@@ -45,3 +45,7 @@
 
 ##屏幕长亮
 详见  /js/lib/not_auto_off_screen.js
+
+
+##屏幕截图
+详见  /js/lib/screen_shots.js
