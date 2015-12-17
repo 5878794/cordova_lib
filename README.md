@@ -53,3 +53,8 @@
 
 ##loading
 详见  /js/lib/loading.js
+
+
+
+##canvas保存成图片并返回地址
+详见  /js/lib/canvas2image.js
