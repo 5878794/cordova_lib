@@ -21,7 +21,7 @@ $(document).ready(function(){
 			yl = $(this).attr("yl") || "";
 
 		if(id){
-			if(id == "device" || id == "jq_plus" ){
+			if(id == "capp" ){
 
 			}else{
 				$("body").append('<label><input id="__'+id+'__" yl="'+yl+'" type="checkbox" value="'+id+'" name="box">'+id + '<span style="color:#999">('+message+')</span>'+'</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="__look__" _id="'+id+'" style="color:red;cursor:pointer;">查看</a><br/>');
@@ -126,7 +126,7 @@ var download = function(){
 	var src= window.URL.createObjectURL(blob);
 
 	__a__.attr({href:src});
-	__a__.get(0).download = "lib.js";
+	__a__.get(0).download = "capp.js";
 };
 
 

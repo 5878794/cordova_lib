@@ -49,3 +49,7 @@
 
 ##屏幕截图
 详见  /js/lib/screen_shots.js
+
+
+##loading
+详见  /js/lib/loading.js
