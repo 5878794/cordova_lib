@@ -5,6 +5,7 @@
 
 
 //cordova canvas保存成图片并返回图片地址
+// ios不返回地址。。。模拟器里面，真机需要测试
 
 //install
 //cordova plugin add https://github.com/devgeeks/Canvas2ImagePlugin.git
