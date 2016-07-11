@@ -14,3 +14,11 @@
 //屏蔽ios的弹性滚动
 //config.xml 中增加
 //<preference name="DisallowOverscroll" value="true" />
+
+
+
+//解决页面meta 设置viewport的width无效的问题
+//在...platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java
+//   中initWebViewSettings方法中加入下面2行
+//settings.setUseWideViewPort(true);
+//settings.setLoadWithOverviewMode(true);
