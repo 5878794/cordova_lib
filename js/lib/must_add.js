@@ -3,6 +3,11 @@
  */
 
 
+//允许访问在线地址
+//config.xml 中增加
+//<allow-navigation href="*"/>
+//<allow-navigation href="http://*/*" />
+//<allow-navigation href="https://*/*" />
 
 
 //解决页面加载过慢会报错退出的bug
